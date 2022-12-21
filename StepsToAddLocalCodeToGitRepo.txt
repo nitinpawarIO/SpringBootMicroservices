@@ -1,0 +1,21 @@
+1. got to your project source folder
+
+2. Initialize the local directory as a Git repository.
+	git init
+	
+3. Add the files in your new local repository. This stages them for the first commit.
+
+	git add .   
+	OR
+	git add --all
+	
+4. git commit -m 'First commit'
+
+5. git remote add origin <remote repository URL>
+
+6. Set the new remote:
+
+	git remote -v
+	
+7. Push the changes in your local repository up to the remote repository you specified as the origin
+	git push origin master
